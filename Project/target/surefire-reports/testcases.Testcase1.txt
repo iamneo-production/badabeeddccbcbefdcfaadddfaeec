@@ -1,4 +1,40 @@
 -------------------------------------------------------------------------------
 Test set: testcases.Testcase1
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 37.68 s - in testcases.Testcase1
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 27.793 s <<< FAILURE! - in testcases.Testcase1
+TestProductClick(testcases.Testcase1)  Time elapsed: 6.929 s  <<< FAILURE!
+java.lang.AssertionError: 
+expected [Budget Laptops under INR 40000] but found [38 results
+Sort by:
+        
+            Featured
+        
+            Price: Low to High
+        
+            Price: High to Low
+        
+            Avg. Customer Review
+        
+            Newest Arrivals
+        
+    Sort by:Featured]
+	at testcases.Testcase1.TestProductClick(Testcase1.java:86)
+
+AddCartTest(testcases.Testcase1)  Time elapsed: 6.774 s  <<< FAILURE!
+java.lang.AssertionError: 
+expected [Budget Laptops under INR 40000] but found [38 results
+Sort by:
+        
+            Featured
+        
+            Price: Low to High
+        
+            Price: High to Low
+        
+            Avg. Customer Review
+        
+            Newest Arrivals
+        
+    Sort by:Featured]
+	at testcases.Testcase1.AddCartTest(Testcase1.java:119)
+
